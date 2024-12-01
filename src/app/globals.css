@@ -14,8 +14,73 @@
   }
 }
 
+@font-face {
+  font-family: "PlantinMTProBold";
+  src: url("./fonts/PlantinMTProBold.TTF") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "PlantinMTProBoldIt";
+  src: url("./fonts/PlantinMTProBoldIt.TTF") format("truetype");
+  font-weight: bold;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "PlantinMTProCnBd";
+  src: url("./fonts/PlantinMTProCnBd.TTF") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "PlantinMTProLight";
+  src: url("./fonts/PlantinMTProLight.TTF") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "PlantinMTProLightIt";
+  src: url("./fonts/PlantinMTProLightIt.TTF") format("truetype");
+  font-weight: 300;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "PlantinMTProRg";
+  src: url("./fonts/PlantinMTProRg.TTF") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "PlantinMTProRgIt";
+  src: url("./fonts/PlantinMTProRgIt.TTF") format("truetype");
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "PlantinMTProSemiBdIt";
+  src: url("./fonts/PlantinMTProSemiBdIt.TTF") format("truetype");
+  font-weight: 600;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "PlantinMTProSmBd";
+  src: url("./fonts/PlantinMTProSmBd.TTF") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+}
+
 body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  /* color: var(--foreground);
+  background: var(--background); */
+  /* font-family: Arial, Helvetica, sans-serif; */
+  background: #f9f4ff;
+  font-family: "PlantinMTProRg", sans-serif;
 }

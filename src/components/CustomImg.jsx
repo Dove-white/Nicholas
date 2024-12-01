@@ -7,15 +7,14 @@ const CustomImg = ({ src, className }) => {
   return (
     <>
       {production ? (
-        <img src={src} alt="" className={`dark:invert ${className}`} />
+        <img src={src} alt="" className={` ${className}`} />
       ) : (
         <Image
-          className={`dark:invert ${className}`}
+          className={`${className}`}
           src={src}
           alt="Next.js logo"
           width={1000}
           height={1000}
-          layout="responsive"
           priority
         />
       )}
